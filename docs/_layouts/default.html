@@ -30,7 +30,8 @@
                             alt="Creative Commons License" style="border-width:0"
                             src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
                         rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
-                    <strong>Last modified: </strong>{{ page.last_modified_at | date: '%B %d, %Y at %S: %R.' }} <a
+                    <strong>Last modified: </strong>{{ page.date}}
+                    <!--2022-04-13 ebb: We had  page.last_modified_at | date: '%B %d, %Y at %S: %R.' and it worked locally. Apparently last_modified_at has not been whitelisted by GitHub Pages so it won't work outside my local build --> <a
                         href="https://newtfire.org/firebellies.html">Powered by
                     firebellies</a>.</span>
             </div>
