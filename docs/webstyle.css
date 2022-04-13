@@ -6,17 +6,18 @@ body {
     line-height: 1.3em;
 }
 nav {
-    margin-left:10vw;
+    margin-left:7vw;
     font-weight:600;
     font-size:1.3em;
 }
 section.newts {
-    margin: auto;
-    width: 50%;
+    width:50%;
+    margin: auto;  
     display: flex;
     justify-content: space-around;
 
 }
+
 p {
     text-align: center;
 }
