@@ -29,6 +29,7 @@ url: "https://newtfire.github.io/rubyJekyll/" # the base hostname & protocol for
 
 # Build settings
 # theme: minima
+timezone: America/New_York
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
