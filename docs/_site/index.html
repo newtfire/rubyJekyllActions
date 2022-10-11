@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>My Newt-Styled Ruby Jekyll Site</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="My Name" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/favicon.ico"/> 
+        <!--ebb: This worked on localhost:4000 : <link rel="stylesheet" type="text/css" href="../webstyle.css" />-->
+        <link rel="stylesheet" type="text/css" href="webstyle.css" />
+    </head>
+    <!--This page is published at https://newtfire.github.io/textEncoding-Hub/copy-and-rename-to-docs/ -->
+    <body>
+        <nav><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="resources.html">Resources</a></nav>
+        <h1>Home</h1>
+       
+        <div class="container">
+            
+            <section>
+    <p>Welcome to my site.</p>
+    <section class="newts">
+        <figure >
+            <img src="images/newt-mosaic5.png"
+                alt="image of Dr. B's firebelly newt facing clockwise" />
+        </figure>
+        <figure>
+            <img src="images/newt-mosaic4.png"
+                alt="image of Dr. B's firebelly newt facing counterclockwise" />
+        </figure>
+    </section>
+    <p> Mirror images of a firebelly newt.</p>
+    <p>We are at <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend
+        College</a>.</p>
+</section>
+            <!--The double set of curly braces indicates a "liquid tag" in Jekyll, from the Liquid templating language.  -->
+        </div>
+      
+        <footer>
+            <figure><a href="https://newtfire.org/courses/"><img src="images/newt-mosaic4.png"
+                alt="NewtFire logo: a mosaic rendering of a firebelly newt" /></a></figure>
+            <p>Visit <a href="https://github.com/newtfire/rubyJekyll"
+                >our rubyJekyll GitHub repository</a>, an extension of <a href="https://newtfire.org">newtFire</a>
+                <a href="https://newtfire.org/courses/">{dh}</a>.</p>
+            <div class="boilerplate">
+                <span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (eeb4 at psu.edu) <a
+                        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                            alt="Creative Commons License" style="border-width:0"
+                            src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
+                        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
+                    <strong>Last modified: </strong>April 13, 2022 at 13: 09:40.
+                    <!--2022-04-13 ebb: We had  page.last_modified_at | date: '%B %d, %Y at %S: %R.' and it worked locally. Apparently last_modified_at has not been whitelisted by GitHub Pages so it won't work outside my local build --> <a
+                        href="https://newtfire.org/firebellies.html">Powered by
+                    firebellies</a>.</span>
+            </div>
+        </footer>
+    </body>
+</html>
